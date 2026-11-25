@@ -1,0 +1,6 @@
+{"_note":"EXAMPLE data, invented for this demo.","tools":[
+{"name":"search_orders","description":"Search orders by customer email and return up to 20 matches.","inputSchema":{"type":"object","properties":{"email":{"type":"string","description":"Customer email"},"limit":{"type":"integer","description":"Max results"}},"required":["email"],"additionalProperties":false}},
+{"name":"run","description":"Does stuff","inputSchema":{"type":"object","properties":{"q":{}},"required":["query"]}},
+{"name":"get invoice","inputSchema":{"type":"object","properties":{"id":{"type":"string"}}}},
+{"name":"search_orders","description":"Duplicate of the first tool, same name on purpose.","inputSchema":{"type":"object","properties":{}}}
+]}

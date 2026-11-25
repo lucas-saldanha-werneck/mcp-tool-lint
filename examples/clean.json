@@ -1,0 +1,1 @@
+{"tools":[{"name":"search_orders","description":"Search orders by customer email and return up to 20 matches.","inputSchema":{"type":"object","properties":{"email":{"type":"string","description":"Customer email"}},"required":["email"],"additionalProperties":false}}]}
