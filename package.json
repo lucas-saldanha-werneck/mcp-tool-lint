@@ -1,1 +1,1 @@
-{"name":"mcp-tool-lint","version":"0.1.0","type":"module","bin":{"mcp-tool-lint":"src/cli.js"},"scripts":{"test":"node --test test/"},"license":"MIT"}
+{"name":"mcp-tool-lint","version":"0.1.0","type":"module","bin":{"mcp-tool-lint":"src/cli.js"},"scripts":{"test":"node --test test/*.test.js"},"license":"MIT"}
